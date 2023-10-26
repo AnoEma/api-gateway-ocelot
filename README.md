@@ -1,6 +1,7 @@
 # Api Gateway to use Ocelot
 
-![image](https://github.com/AnoEma/api-gateway-ocelot/assets/47406426/27a21260-ba58-4cad-b22b-0d5b4fe444be)
+![image](https://github.com/AnoEma/api-gateway-ocelot/assets/47406426/ab97424c-e016-40cb-8964-4d2d94ba96df)
+
 
 #Documentation:
 
