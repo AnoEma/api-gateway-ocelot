@@ -7,9 +7,9 @@ namespace OrderProcessing.Product.Controllers;
 public class ProductController : ControllerBase
 {
     private readonly IProductRepository _productRepository;
-    public ProductController(IProductRepository customerRepository)
+    public ProductController(IProductRepository productRepository)
     {
-        _productRepository = customerRepository;
+        _productRepository = productRepository;
     }
 
     [HttpGet]
