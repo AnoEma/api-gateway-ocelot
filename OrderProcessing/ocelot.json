@@ -1,5 +1,6 @@
 {
 	"GlobalConfiguration": {
+		"RequestIdKey": "X-Correlation-Id",
 		"BaseUrl": "http://localhost:5218"
 	},
 	"Routes": [
@@ -12,6 +13,10 @@
 					"Port": "5095"
 				}
 			],
+			"FileCacheOptions": {
+				"TtlSeconds": 30,
+				"Region": "customercaching"
+			},
 			"UpstreamPathTemplate": "/Customer",
 			"UpstreamHttpMethod": [
 				"GET"
